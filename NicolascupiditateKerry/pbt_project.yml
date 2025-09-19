@@ -1,0 +1,89 @@
+name: glory.ledner
+description: emulation
+version: 0.0.1
+author: svhiiicy.wcasw9hk@7furkmds.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: gloryledner
+  parentArtefactID: svhiiicywcasw9hk7furkmdscomteam
+  buildSystem: maven
+  author: null
+  createdAt: '2025-09-19 23:27:18'
+pipelines:
+  pipelines/conflictedPipelineCode:
+    name: conflictedPipelineCode
+    description: null
+    author: svhiiicy.wcasw9hk@7furkmds.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:27:18'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/conflictedPipelineDescription:
+    name: conflictedPipelineDescription
+    description: null
+    author: svhiiicy.wcasw9hk@7furkmds.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:27:18'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/badPipeline:
+    name: badPipeline
+    description: null
+    author: svhiiicy.wcasw9hk@7furkmds.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:27:18'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-19 23:27:18'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-09-19T23:27:18.479236Z'
+  name: plibMaven
+  version: 8.14.0-SNAPSHOT
+  id: '1143544210'
+  createdAt: '2025-09-19T23:27:18.479236Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
